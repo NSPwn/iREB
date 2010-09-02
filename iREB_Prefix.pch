@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'iREB' target in the 'iREB' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+

@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170E6470123009BB00487B6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170E646F123009BB00487B6C /* Cocoa.framework */; };
+		170E6475123009BB00487B6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 170E6473123009BB00487B6C /* InfoPlist.strings */; };
+		170E6477123009BB00487B6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E6476123009BB00487B6C /* main.m */; };
+		170E647A123009BC00487B6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 170E6478123009BC00487B6C /* MainMenu.xib */; };
+		170E647D123009BC00487B6C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 170E647B123009BC00487B6C /* Credits.rtf */; };
+		170E6480123009BC00487B6C /* iREBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E647F123009BC00487B6C /* iREBAppDelegate.m */; };
+		171DF00112300DA700CC42BB /* syspref2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 171DF00012300DA700CC42BB /* syspref2.icns */; };
+		17A5A51712300AB40072E5EC /* libusb-1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A5A51612300AB40072E5EC /* libusb-1.0.a */; };
+		17A5A51D12300AC60072E5EC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A5A51C12300AC60072E5EC /* AppKit.framework */; };
+		17A5A52112300AD10072E5EC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A5A52012300AD10072E5EC /* CoreData.framework */; };
+		17A5A52512300ADF0072E5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A5A52412300ADF0072E5EC /* Foundation.framework */; };
+		17A5A52912300AEE0072E5EC /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A5A52812300AEE0072E5EC /* libcrypto.dylib */; };
+		17A5A54912300B090072E5EC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A5A54812300B090072E5EC /* IOKit.framework */; };
+		17D254FB1230137F00C32D14 /* libpartial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D254FA1230137F00C32D14 /* libpartial.a */; };
+		17D963141230280F00EE6859 /* USBDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17D963121230280F00EE6859 /* USBDevice.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		170E646C123009BB00487B6C /* iREB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iREB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		170E646F123009BB00487B6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		170E6471123009BB00487B6C /* iREB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iREB-Info.plist"; sourceTree = "<group>"; };
+		170E6472123009BB00487B6C /* iREB_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iREB_Prefix.pch; sourceTree = "<group>"; };
+		170E6474123009BB00487B6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		170E6476123009BB00487B6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		170E6479123009BC00487B6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		170E647C123009BC00487B6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		170E647E123009BC00487B6C /* iREBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iREBAppDelegate.h; sourceTree = "<group>"; };
+		170E647F123009BC00487B6C /* iREBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iREBAppDelegate.m; sourceTree = "<group>"; };
+		171DF00012300DA700CC42BB /* syspref2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = syspref2.icns; sourceTree = "<group>"; };
+		17A5A51612300AB40072E5EC /* libusb-1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libusb-1.0.a"; path = "Frameworks/libusb-1.0.a"; sourceTree = "<group>"; };
+		17A5A51C12300AC60072E5EC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		17A5A52012300AD10072E5EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		17A5A52412300ADF0072E5EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17A5A52812300AEE0072E5EC /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		17A5A54812300B090072E5EC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		17AE09431230131F0037DA28 /* partial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partial.h; sourceTree = "<group>"; };
+		17D254FA1230137F00C32D14 /* libpartial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpartial.a; path = Frameworks/libpartial.a; sourceTree = "<group>"; };
+		17D963121230280F00EE6859 /* USBDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = USBDevice.cpp; path = ../USBDevice.cpp; sourceTree = "<group>"; };
+		17D963131230280F00EE6859 /* USBDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = USBDevice.h; path = ../USBDevice.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170E6469123009BB00487B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170E6470123009BB00487B6C /* Cocoa.framework in Frameworks */,
+				17A5A51712300AB40072E5EC /* libusb-1.0.a in Frameworks */,
+				17A5A51D12300AC60072E5EC /* AppKit.framework in Frameworks */,
+				17A5A52112300AD10072E5EC /* CoreData.framework in Frameworks */,
+				17A5A52512300ADF0072E5EC /* Foundation.framework in Frameworks */,
+				17A5A52912300AEE0072E5EC /* libcrypto.dylib in Frameworks */,
+				17A5A54912300B090072E5EC /* IOKit.framework in Frameworks */,
+				17D254FB1230137F00C32D14 /* libpartial.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170E645D123009BB00487B6C = {
+			isa = PBXGroup;
+			children = (
+				170E6464123009BB00487B6C /* Classes */,
+				170E6465123009BB00487B6C /* Other Sources */,
+				170E6466123009BB00487B6C /* Resources */,
+				170E6467123009BB00487B6C /* Frameworks */,
+				170E646D123009BB00487B6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170E6464123009BB00487B6C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17D963121230280F00EE6859 /* USBDevice.cpp */,
+				17D963131230280F00EE6859 /* USBDevice.h */,
+				17AE09431230131F0037DA28 /* partial.h */,
+				170E647E123009BC00487B6C /* iREBAppDelegate.h */,
+				170E647F123009BC00487B6C /* iREBAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		170E6465123009BB00487B6C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				170E6472123009BB00487B6C /* iREB_Prefix.pch */,
+				170E6476123009BB00487B6C /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		170E6466123009BB00487B6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				171DF00012300DA700CC42BB /* syspref2.icns */,
+				170E6471123009BB00487B6C /* iREB-Info.plist */,
+				170E6473123009BB00487B6C /* InfoPlist.strings */,
+				170E6478123009BC00487B6C /* MainMenu.xib */,
+				170E647B123009BC00487B6C /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		170E6467123009BB00487B6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				170E646F123009BB00487B6C /* Cocoa.framework */,
+				17A5A51612300AB40072E5EC /* libusb-1.0.a */,
+				17A5A51C12300AC60072E5EC /* AppKit.framework */,
+				17A5A52012300AD10072E5EC /* CoreData.framework */,
+				17A5A52412300ADF0072E5EC /* Foundation.framework */,
+				17A5A52812300AEE0072E5EC /* libcrypto.dylib */,
+				17A5A54812300B090072E5EC /* IOKit.framework */,
+				17D254FA1230137F00C32D14 /* libpartial.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		170E646D123009BB00487B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170E646C123009BB00487B6C /* iREB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170E646B123009BB00487B6C /* iREB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170E6483123009BC00487B6C /* Build configuration list for PBXNativeTarget "iREB" */;
+			buildPhases = (
+				170E6468123009BB00487B6C /* Sources */,
+				170E6469123009BB00487B6C /* Frameworks */,
+				170E646A123009BB00487B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iREB;
+			productName = iREB;
+			productReference = 170E646C123009BB00487B6C /* iREB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170E645F123009BB00487B6C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 170E6462123009BB00487B6C /* Build configuration list for PBXProject "iREB" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 170E645D123009BB00487B6C;
+			productRefGroup = 170E646D123009BB00487B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170E646B123009BB00487B6C /* iREB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170E646A123009BB00487B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170E6475123009BB00487B6C /* InfoPlist.strings in Resources */,
+				170E647A123009BC00487B6C /* MainMenu.xib in Resources */,
+				170E647D123009BC00487B6C /* Credits.rtf in Resources */,
+				171DF00112300DA700CC42BB /* syspref2.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170E6468123009BB00487B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170E6477123009BB00487B6C /* main.m in Sources */,
+				170E6480123009BC00487B6C /* iREBAppDelegate.m in Sources */,
+				17D963141230280F00EE6859 /* USBDevice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		170E6473123009BB00487B6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170E6474123009BB00487B6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		170E6478123009BC00487B6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170E6479123009BC00487B6C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		170E647B123009BC00487B6C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170E647C123009BC00487B6C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170E6481123009BC00487B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					"$(SRCROOT)/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lusb-1.0";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		170E6482123009BC00487B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					"$(SRCROOT)/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lusb-1.0";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		170E6484123009BC00487B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iREB_Prefix.pch;
+				INFOPLIST_FILE = "iREB-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				PRODUCT_NAME = iREB;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		170E6485123009BC00487B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iREB_Prefix.pch;
+				INFOPLIST_FILE = "iREB-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				PRODUCT_NAME = iREB;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170E6462123009BB00487B6C /* Build configuration list for PBXProject "iREB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170E6481123009BC00487B6C /* Debug */,
+				170E6482123009BC00487B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170E6483123009BC00487B6C /* Build configuration list for PBXNativeTarget "iREB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170E6484123009BC00487B6C /* Debug */,
+				170E6485123009BC00487B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170E645F123009BB00487B6C /* Project object */;
+}
