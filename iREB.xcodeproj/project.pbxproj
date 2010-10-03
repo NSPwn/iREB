@@ -44,8 +44,8 @@
 		17A5A54812300B090072E5EC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		17AE09431230131F0037DA28 /* partial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partial.h; sourceTree = "<group>"; };
 		17D254FA1230137F00C32D14 /* libpartial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpartial.a; path = Frameworks/libpartial.a; sourceTree = "<group>"; };
-		17D963121230280F00EE6859 /* USBDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = USBDevice.cpp; path = ../USBDevice.cpp; sourceTree = "<group>"; };
-		17D963131230280F00EE6859 /* USBDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = USBDevice.h; path = ../USBDevice.h; sourceTree = "<group>"; };
+		17D963121230280F00EE6859 /* USBDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USBDevice.cpp; sourceTree = "<group>"; };
+		17D963131230280F00EE6859 /* USBDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USBDevice.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

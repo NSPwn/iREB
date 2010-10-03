@@ -11,7 +11,7 @@
 
 @implementation iREBAppDelegate
 
-@synthesize window;
+@synthesize window, online, offline;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 
