@@ -12,13 +12,15 @@
     NSWindow *window;
 	NSButtonCell *online;
 	NSButtonCell *offline;
+	BOOL pzip;
 }
 
-- (IBAction) selectOnline:(id)sender;
+- (BOOL)isError:(NSString *)theString;
+- (IBAction) usePzip:(id)sender;
 
 @property (assign) IBOutlet NSWindow *window;
-@property (assign, retain) IBOutlet NSButtonCell *online;
-@property (assign, retain) IBOutlet NSButtonCell *offline;
+@property (assign) IBOutlet NSButtonCell *online;
+@property (assign) IBOutlet NSButtonCell *offline;
 
 @end
 

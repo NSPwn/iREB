@@ -15,8 +15,15 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 
-    // Insert code here to initialize your application
+    [online setAction:@selector(usePzip:)];
 }
+
+- (IBAction) usePzip:(id)sender {
+	pzip = YES;
+	NSLog(@"click");
+}
+								
+					
 
 @end
 
